@@ -1,0 +1,28 @@
+set nocompatible
+
+set ch=1		" Make command line two lines high
+set bs=2		" Make backspace work
+set mousehide		" Hide the mouse when typing text
+
+set hlsearch		" Switch on search pattern highlighting.
+
+
+set background=dark
+colorscheme solarized
+set guifont=Terminus:h12
+set lines=55 columns=140
+
+let mapleader = ","
+map <Leader>n :NERDTreeToggle<CR>  
+map <Leader>N :NERDTreeToggle D:\<CR>  
+
+nnoremap ; :
+
+set softtabstop=2
+set shiftwidth=2
+set nocindent
+set smartindent
+
+set relativenumber
+
+let NERDTreeChDirMode=1

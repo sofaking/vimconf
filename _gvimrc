@@ -17,6 +17,7 @@ map <Leader>n :NERDTreeToggle<CR>
 map <Leader>N :NERDTreeToggle D:\<CR>  
 
 nnoremap ; :
+vnoremap ; :
 
 set softtabstop=2
 set shiftwidth=2

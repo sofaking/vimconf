@@ -5,6 +5,7 @@ set bs=2		" Make backspace work
 set mousehide		" Hide the mouse when typing text
 
 set hlsearch		" Switch on search pattern highlighting.
+set incsearch		" Switch on incremental search
 
 
 set background=dark
@@ -12,17 +13,29 @@ colorscheme solarized
 set guifont=Terminus:h12
 set lines=55 columns=140
 
+
 let mapleader = ","
 map <Leader>n :NERDTreeToggle<CR>  
-map <Leader>N :NERDTreeToggle D:\<CR>  
+map <Leader>N :NERDTree D:\<CR>  
+
+" Copy/paste from system clipboard
+map <Leader>y "*y<CR>  
+map <Leader>Y "*Y<CR>  
+map <Leader>p "*p<CR>  
+map <Leader>P "*P<CR>  
+
+" cd to current directory
+map <Leader>cd :cd %:p:h<CR>  
 
 nnoremap ; :
 vnoremap ; :
+
 
 set softtabstop=2
 set shiftwidth=2
 set nocindent
 set smartindent
+
 
 set relativenumber
 

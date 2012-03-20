@@ -27,6 +27,8 @@ map <Leader>P "*P<CR>
 " cd to current directory
 map <Leader>cd :cd %:p:h<CR>  
 
+map <Leader>h :nohl<CR>
+
 nnoremap ; :
 vnoremap ; :
 
@@ -39,4 +41,4 @@ set smartindent
 
 set relativenumber
 
-let NERDTreeChDirMode=1
+let NERDTreeChDirMode=2

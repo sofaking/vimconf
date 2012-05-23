@@ -30,15 +30,10 @@ map <Leader>cd :cd %:p:h<CR>
 
 map <Leader>h :nohl<CR>
 
-" nnoremap ; :
-" vnoremap ; :
-
-
 set softtabstop=2
 set shiftwidth=2
 set nocindent
 set smartindent
-
 
 set relativenumber
 

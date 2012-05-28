@@ -10,10 +10,15 @@ set ignorecase smartcase " Make searches case-sensitive only if they contain upp
 
 
 set background=dark
-colorscheme solarized
-set guifont=Terminus:h12
+" colorscheme solarized
+colorscheme vividchalk
+" set guifont=Terminus:h12
+set guifont=Consolas:h11
 set lines=55 columns=140
 set cursorline           " Highlight current line
+set guioptions-=T
+set laststatus=2
+set noswapfile
 
 let mapleader = ","
 map <Leader>n :NERDTreeToggle<CR>  
